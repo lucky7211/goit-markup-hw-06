@@ -494,6 +494,7 @@
               type="email"
               name="email"
               placeholder="E-mail"
+              required
             />
             <button type="submit" class="subscribe-btn">
               <span class="button-span">Підписатися</span>
@@ -517,7 +518,7 @@
           <label class="modal-input-wrapper">
             <span class="modal-input-name">Ім'я</span>
             <span class="modal-icon-input-div">
-              <input type="text" name="name" class="modal-input" />
+              <input type="text" name="name" class="modal-input" required />
               <svg aria-label="іконка людини" class="modal-form-icon">
                 <use
                   class="name-icon"
@@ -529,7 +530,7 @@
           <label class="modal-input-wrapper">
             <span class="modal-input-name">Телефон</span>
             <span class="modal-icon-input-div">
-              <input type="tel" name="phone" class="modal-input" />
+              <input type="tel" name="phone" class="modal-input" required />
               <svg aria-label="іконка слухавка" class="modal-form-icon">
                 <use
                   class="tel-icon"
@@ -541,7 +542,7 @@
           <label class="modal-input-wrapper">
             <span class="modal-input-name">Пошта</span>
             <span class="modal-icon-input-div">
-              <input type="email" name="mail" class="modal-input" />
+              <input type="email" name="mail" class="modal-input" required />
               <svg aria-label="іконка конверт" class="modal-form-icon">
                 <use
                   class="email-icon"
@@ -550,7 +551,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-input-wrapper">
+          <label class="modal-input-textarea-wrapper">
             <span class="modal-input-name">Коментар</span>
             <textarea
               name="user message"
